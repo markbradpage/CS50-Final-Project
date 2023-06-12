@@ -18,7 +18,7 @@
 #### enemy.lua
 >enemy.lua contains the class information for enemy boxes which spawn.  It assigns a random speed within a range, and 'promotes' certain enemy blocks if their speed passes a certain threshold, as well as if they become too far from the player.
 #### player.lua
->player.lua is likely the shortest and simplest of all the files
+>player.lua is likely the shortest and simplest of all the files. Its only purpose is to allow input for movement of the character.
 #### printfunctions.lua
 >printfunctions.lua simply prints useful information around the screen such as player health, score, enemy count, etc.  It also prints the Invulnerability time, shown as 'Resist', and the Nuke weapon's cooldown timer, but these values only appear when relevant.k
 ## Gameplay
